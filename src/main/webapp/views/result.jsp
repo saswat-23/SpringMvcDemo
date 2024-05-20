@@ -3,7 +3,7 @@
 <html>
 	<body>
 		<h2>Welcome to Result Page</h2>
-		<p>The Student Data is: </p>
+		<p>The ${entityName} Data is: </p>
 		<p>${student}</p>
 	</body>
 </html>
