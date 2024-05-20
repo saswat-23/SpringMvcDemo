@@ -14,7 +14,7 @@ public class HomeController {
 	}
 	
 	@RequestMapping("/addStudent")
-	public String addStudent(@ModelAttribute("stud1") Student student) {
+	public String addStudent(Student student) {
 		System.out.println("Inside addStudent()");
 		return "result";
 	}
