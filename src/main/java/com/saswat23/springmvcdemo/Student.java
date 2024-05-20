@@ -4,6 +4,7 @@ public class Student {
 	
 	private int sid;
 	private String sname;
+	private int smarks;
 	
 	public int getSid() {
 		return sid;
@@ -19,8 +20,15 @@ public class Student {
 		this.sname = sname;
 	}
 	
+	public int getSmarks() {
+		return smarks;
+	}
+	public void setSmarks(int smarks) {
+		this.smarks = smarks;
+	}
+	
 	@Override
-	public String toString() {
-		return "Student [sid=" + sid + ", sname=" + sname + "]";
+	public String toString() { 
+		return "Student [sid=" + sid + ", sname=" + sname + ", smarks=" + smarks + "]";
 	}
 }
